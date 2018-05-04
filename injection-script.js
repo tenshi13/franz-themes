@@ -1,4 +1,4 @@
-
+// Injecting : https://github.com/tenshi13/franz-themes
 // First make sure the wrapper app is loaded
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
    let webviews = document.querySelectorAll(".TeamView webview");
 
    // Fetch our CSS in parallel ahead of time
-   // #TODO: should do loop here
-   const cssPath = './themes/slack.custom.css';
+   // #TODO: should do loop on local theme folder here
+   const cssPath = 'https://cdn.rawgit.com/widget-/slack-black-theme/master/custom.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
    let customCustomCSS = `
