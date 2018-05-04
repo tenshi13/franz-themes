@@ -1,11 +1,11 @@
 # Franz Themes
-A script injection for meetfranz.com
-Allows custom theme(css) templates for different services
+* A script injection for communication aggregator - [meetfranz.com](meetfranz.com)
+* Allows custom theme(css) templates for different services
 
 ## Story
-Been personally using franz for a bit and we use slack extensively in the office
-thanks to https://github.com/triton-magneto, introduced a slack theme plugin - https://github.com/d-fay/slack-black-theme
-Citing from this project, we tried to adapt the script injection for franz
+* Been personally using franz for a bit and we use slack extensively in the office
+* thanks to https://github.com/triton-magneto, introduced a slack theme plugin - https://github.com/d-fay/slack-black-theme
+* Citing from this project, we tried to adapt the script injection for franz
 
 # TODO
 * support is currently for mac and slack only
